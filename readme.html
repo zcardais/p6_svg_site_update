@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8"/>
+</head>
+<body>
+<h1 id="projectinstructions">Project Instructions</h1>
+
+<p>There are 9 steps to this project:</p>
+
+<ol>
+<li><p>Replace the background pattern PNG with the matching SVG (background.svg). Use CSS to resize the SVG to match the original design. <em>Complete.</em></p></li>
+<li><p>Replace rasterized PNG logo with the SVG logo image of the same size (logo.svg): use the inline SVG method to add it (you&#8217;ll use CSS to modify the image). <em>Complete</em></p></li>
+<li><p>At a page width of less than 420 pixels remove the text from the logo and add an H1 tag that contains the logo text. <em>Complete</em></p></li>
+<li><p>Replace dogs with SVG images of the same size using the <img> tag.</p></li>
+<li><p>Change icons in the menu from rasterized images to inline SVGs keeping the original image size the same.</p></li>
+<li><p>When a user hovers over a nav menu item, use CSS to change the color of both the text and the inline SVG.</p></li>
+<li><p>When submitting your project be sure to make a note in the comments which browsers and versions you have tested with.</p></li>
+<li><p>And remember you can only use an &#8216;ID&#8217; once so double check the SVG images when adding them.</p></li>
+<li><p>Make sure to check your code is valid by running it through an HTML and CSS validator.</p></li>
+<li><p>Links to the validators can be found in the Project Resources. This will help you spot any errors that might be in your code.</p></li>
+<li><p><em>There are a few exceptions that you don’t need to fix:</em></p>
+
+<ul>
+<li><p>Don’t worry about any warnings, we just need you to check any errors that might be there.</p></li>
+<li><p>If CSS validator flags use of calc, vendor prefixes or pseudo-elements/pseudo-classes these errors should be ignored.</p></li>
+<li><p>If HTML validator flags use of pipe (‘|’) in Google font links/URLs this error can also be ignored.</p></li>
+<li><p>The CSS Validator does not recognize the SVG attributes like fill as valid attributes. Take a look at the <a href="https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute">SVG Attribute</a> Reference for SVG attributes that are acceptable even if they do not pass the validator.</p></li>
+</ul></li>
+</ol>
+
+<h2 id="notesfromsvgcourses">Notes from SVG Courses</h2>
+
+<h3 id="creatingananimatedlinedrawing">Creating an Animated Line Drawing</h3>
+
+<ul>
+<li>Add a <code>stroke</code> to the <code>path</code></li>
+<li>Set <code>stroke-dasharray</code> equal to path&#8217;s total length</li>
+<li>Set <code>stroke-dashoffset</code> the same as <code>stroke-dasharray</code></li>
+<li>Animate <code>stroke-dasharray</code> to 0</li>
+</ul>
+
+<h3 id="example">Example</h3>
+
+<pre><code>/* --------------------------
+  Keyframes
+--------------------------- */
+
+@keyframes offset {
+  100% {
+    stroke-dashoffset: 0;
+  }
+}
+
+@keyframes fill-it {
+  100% {
+    fill: #6fbc6d;
+  }
+}
+
+/* --------------------------
+  SVG Styles
+  --------------------------- */
+
+svg {
+  display: block;
+  margin: 2em auto 0;
+  width: 40%;
+}
+
+.logo {
+  stroke: #6FBC6D;
+  stroke-width: 2;
+  stroke-dasharray: 810;
+  stroke-dashoffset: 810;
+
+  animation: offset 5s linear forwards, fill-it .8s 5s forwards;
+}
+</code></pre>
+
+<p>`</p>
+
+</body>
+</html>
