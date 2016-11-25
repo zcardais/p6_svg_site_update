@@ -61,7 +61,7 @@ main {
   }
     main li {
       display: inline-block;
-      color: #ba8058;
+      color: #ba8058;height: 170px;
       margin-right: 20px;
     }
       main li img {
@@ -81,16 +81,30 @@ footer {
   color: #ba8058;
 }
 
-.logo {
-  width: 140px;
-  /*height: 120px;*/
-}
+.logo { width: 140px; }
+.logo .st0 { fill:#BA8058; }
+.logo .st1 { fill:#EAAA7F; }
+.logo .st2 { fill:#F4C6A6; }
+
+.corgi { width: 170px; height: 170px;}
+
+.icon-heart,
+.icon-contact { height: 13px; }
+.icon-location { height: 14px; }
+
+.icon-heart .st0,
+.icon-contact .st0 { fill: #39ADD1; }
+.icon-location .st0 { fill: #39ADD1; }
+
+.icon-heart .st0:hover,
+.icon-contact .st0:hover { fill: #111; }
+.icon-location .st0:hover { fill: #111; }
 
 @media screen and (min-width: 420px) {
   .logo-heading-wrap h1 {
     display: none;
   }
-  .logo-text {
+  .logo-text .st1 {
     display: block;
   }
 }

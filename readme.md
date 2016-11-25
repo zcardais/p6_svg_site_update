@@ -3,15 +3,15 @@ There are 9 steps to this project:
 
 1. Replace the background pattern PNG with the matching SVG (background.svg). Use CSS to resize the SVG to match the original design. *Complete.*
 
-2. Replace rasterized PNG logo with the SVG logo image of the same size (logo.svg): use the inline SVG method to add it (you'll use CSS to modify the image). *Complete*
+2. Replace rasterized PNG logo with the SVG logo image of the same size (logo.svg): use the inline SVG method to add it (you'll use CSS to modify the image). *Complete.*
 
-3. At a page width of less than 420 pixels remove the text from the logo and add an H1 tag that contains the logo text. *Complete*
+3. At a page width of less than 420 pixels remove the text from the logo and add an H1 tag that contains the logo text. *Complete.*
 
-4. Replace dogs with SVG images of the same size using the <img> tag.
+4. Replace dogs with SVG images of the same size using the <img> tag. *Complete.*
 
-5. Change icons in the menu from rasterized images to inline SVGs keeping the original image size the same.
+5. Change icons in the menu from rasterized images to inline SVGs keeping the original image size the same. *Complete.*
 
-6. When a user hovers over a nav menu item, use CSS to change the color of both the text and the inline SVG.
+6. When a user hovers over a nav menu item, use CSS to change the color of both the text and the inline SVG. *Complete.*
 
 7. When submitting your project be sure to make a note in the comments which browsers and versions you have tested with.
 
