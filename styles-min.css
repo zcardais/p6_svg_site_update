@@ -100,11 +100,21 @@ footer {
 .icon-contact .st0:hover { fill: #111; }
 .icon-location .st0:hover { fill: #111; }
 
+@media screen and (max-width: 419px) {
+  .logo-heading-wrap h1 {
+    display: block;
+  }
+  g.logo-text {
+    display: none;
+  }
+}
+
 @media screen and (min-width: 420px) {
   .logo-heading-wrap h1 {
     display: none;
   }
-  .logo-text .st1 {
+
+  g.logo-text {
     display: block;
   }
 }
