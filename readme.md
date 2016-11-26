@@ -13,11 +13,11 @@ There are 9 steps to this project:
 
 6. When a user hovers over a nav menu item, use CSS to change the color of both the text and the inline SVG. *Complete.*
 
-7. When submitting your project be sure to make a note in the comments which browsers and versions you have tested with.
+7. When submitting your project be sure to make a note in the comments which browsers and versions you have tested with. *Complete.* NOTE: Testing completed on Chrome version 54.0.2840.98 (64-bit), Safari version 10.0.1 (12602.2.14.0.7), and Firefox version 47.0.
 
-8. And remember you can only use an 'ID' once so double check the SVG images when adding them.
+8. And remember you can only use an 'ID' once so double check the SVG images when adding them. *Complete.*
 
-9. Make sure to check your code is valid by running it through an HTML and CSS validator.
+9. Make sure to check your code is valid by running it through an HTML and CSS validator. *Complete.*
 
   - Links to the validators can be found in the Project Resources. This will help you spot any errors that might be in your code.
 
